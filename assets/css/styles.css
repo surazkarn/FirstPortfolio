@@ -1,16 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
 
+
+
+
+
+
 /* Variables */
 :root {
   --font-family: "Roboto", sans-serf;
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #fcfcfc;
-  --primary-color: #4756df;
+  --bg-color: white;
+  --primary-color: #001aff;
   --secondary-color: #ff7235;
-  --primary-shadow: #8b8eaf;
-  --secondary-shadow: #a17a69;
+  --primary-shadow: #a197ff;
+  --secondary-shadow: #bebfff;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
@@ -45,12 +50,16 @@ a:hover {
 
 body {
   font-family: var(--font-family);
+  /*background: linear-gradient(-45deg, #ffffff, #ffffff, #ffffff, #ffffff);
+    background-size: 400% 400%;
+    animation: gradient 4s ease infinite;
+    */
 }
 
-section {
-  /* max-width: 1100px;
-  margin: auto; */
-}
+/*section {
+   max-width: 1100px;
+  margin: auto; 
+}*/
 
 /* CSS Resets end */
 
@@ -64,8 +73,8 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
-  background-color: var(--bg-color);
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  background-color: rgb(0, 0, 0, 0.08);
+  box-shadow: 0 3px 5px transparent;
 }
 
 nav h1 {
@@ -111,15 +120,17 @@ nav ul li {
 }
 
 .hero img {
-  height: 37.5rem;
-  width: 37.5rem;
+  width: 20%;
+  
+  height: auto;
 }
 
 .bio {
-  width: 25rem;
+  width: 100%;
   padding: 0.625rem;
   border-radius: 6px;
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  background-color: var(--bg-color);
 }
 
 .bio h1 {
@@ -263,7 +274,7 @@ nav ul li {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
-  background-color: #fff;
+  background-color: rgb(255, 0, 0);
   border: 2px solid var(--primary-color);
   border-radius: 5px;
   font-size: 1rem;
@@ -284,7 +295,7 @@ nav ul li {
   flex-direction: column;
   position: fixed;
   right: 1%;
-  bottom: 50%;
+  bottom: 20%;
 }
 
 .socicon {
@@ -349,7 +360,8 @@ footer {
 }
 
 /* Media queries for responsiveness */
-@media screen and (max-width: 720px) {
+
+@media screen and (max-width: 500px) {
   nav {
     padding: 1.5rem 1rem;
   }
@@ -424,7 +436,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
   .hero img {
     height: 37.5rem;
     width: 23rem;
@@ -442,3 +454,14 @@ footer {
     max-width: 17.75rem;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
