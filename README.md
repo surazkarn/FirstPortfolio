@@ -1,4 +1,6 @@
 # MyFirstPortfolio
 This is my First Portfolio coded in HTML ,CSS AND JAVASCRIPT
--
-[click to view portfolio](https://surazfirstportfolio.netlify.app/)
+
+https://main--surazfirstportfolio.netlify.app/
+
+https://65ef1dd49184316966d5e463--surazfirstportfolio.netlify.app/
